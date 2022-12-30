@@ -1,0 +1,3 @@
+2022-12-16 20:50:21,190 - 1 - hummingbot.core.management.console - INFO - Started SSH debug console. Connect by running `ssh user@localhost -p 8211`. Exit with `CTRL + D`.
+2022-12-16 20:55:36,951 - 1 - hummingbot.core.management.console - INFO - Started SSH debug console. Connect by running `ssh user@localhost -p 8211`. Exit with `CTRL + D`.
+2022-12-16 22:00:33,229 - 1 - hummingbot.core.management.console - INFO - Started SSH debug console. Connect by running `ssh user@localhost -p 8211`. Exit with `CTRL + D`.

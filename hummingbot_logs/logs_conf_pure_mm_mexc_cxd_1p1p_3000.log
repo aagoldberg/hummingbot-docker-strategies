@@ -1,0 +1,14 @@
+2022-12-16 18:58:57,215 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2022-12-16 18:58:57,225 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2022-12-16 18:58:57,470 - 1 - hummingbot.connector.exchange.mexc.mexc_exchange - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2022-12-16 18:58:57,666 - 1 - hummingbot.connector.exchange.mexc.mexc_order_book_tracker - INFO - Initialized order book for CXD-USDT. 1/1 completed.
+2022-12-16 18:58:59,004 - 1 - hummingbot.strategy.pure_market_making.pure_market_making - INFO - (CXD-USDT) Creating 1 bid orders at (Size, Price): ['3E+3 CXD, 0.012757 USDT']
+2022-12-16 18:58:59,006 - 1 - hummingbot.strategy.pure_market_making.pure_market_making - INFO - (CXD-USDT) Creating 1 ask orders at (Size, Price): ['3E+3 CXD, 0.013547 USDT']
+2022-12-16 18:58:59,129 - 1 - hummingbot.connector.exchange.mexc.mexc_exchange - INFO - Created LIMIT buy order buy-CXD-USDT-1671217139005244 for 3000.00 CXD-USDT.
+2022-12-16 18:58:59,143 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1671217139.0, "type": "OrderType.LIMIT", "trading_pair": "CXD-USDT", "amount": "3000.00", "price": "0.012757", "order_id": "buy-CXD-USDT-1671217139005244", "creation_timestamp": 1671217139.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "mexc"}
+2022-12-16 18:58:59,145 - 1 - hummingbot.connector.exchange.mexc.mexc_exchange - INFO - Created LIMIT sell order sell-CXD-USDT-1671217139006593 for 3000.00 CXD-USDT.
+2022-12-16 18:58:59,155 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1671217139.0, "type": "OrderType.LIMIT", "trading_pair": "CXD-USDT", "amount": "3000.00", "price": "0.013547", "order_id": "sell-CXD-USDT-1671217139006593", "creation_timestamp": 1671217139.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "mexc"}
+2022-12-16 18:58:59,514 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2022-12-16 19:06:33,566 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2022-12-16 19:06:33,676 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1671217593.0, "order_id": "buy-CXD-USDT-1671217139005244", "exchange_order_id": "ae0966cf914c45048b9e5940c7ac6b41", "event_name": "OrderCancelledEvent", "event_source": "mexc"}
+2022-12-16 19:06:33,684 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1671217593.0, "order_id": "sell-CXD-USDT-1671217139006593", "exchange_order_id": "ecc5e3af1662478fb1c555cda404cf69", "event_name": "OrderCancelledEvent", "event_source": "mexc"}
